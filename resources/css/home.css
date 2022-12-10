@@ -1,0 +1,183 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+.navbar-container{
+    display: flex;
+    background-color: rgb(158, 57, 153);
+    justify-content: space-between;
+    color: white;
+    padding: 10px 100px 10px 100px;
+}
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-img{
+    width: 10%;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navbar-right a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Content */
+.content-home{
+    height: 90vh;
+    background: url("/assets/wallpaper1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.judul-home{
+    color: white;
+}
+
+.contact-btn{
+    background-color:  rgb(188, 26, 134);
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    border-style: none;
+    box-shadow: 2px 2px;
+}
+.contact-btn p{
+    font-size: 16px;
+    color: white;
+}
+
+/* content achievment */
+.content-achievement{
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("/assets/wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 2rem;
+}
+
+.winner-box{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 0rem 4rem 0rem 4rem;
+}
+
+.first-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(188, 26, 134);
+    padding: 4rem;
+    border-radius: 2rem;
+    gap: 1rem;
+}
+.first-box p{
+    text-align: center;
+}
+
+.second-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(188, 26, 134);
+    padding: 4rem;
+    border-radius: 2rem;
+    gap: 1rem;
+}
+.second-box p{
+    text-align: center;
+}
+
+/* About us */
+
+.about-us{
+    background: url("/assets/wallpaper3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12rem 15rem 12rem 15rem;
+}
+
+.card{
+    display: flex;
+    background-color: pink;
+    border-radius: 2rem;
+    height: 500px;
+}
+
+.card img{
+    border-radius: 2rem 0rem 0rem 2rem;
+}
+
+.about-us-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* footer */
+.footer-home{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(175, 31, 163);
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    gap: 1rem;
+}
+
+.log-img-footer{
+    width: 8%;
+}
+
+.sosmed-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+}
+
+.sosmed-img{
+    display: flex;  
+    gap: 1rem;
+    justify-content: center;
+}
+

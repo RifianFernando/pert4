@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
     <title>Bootstrap</title>
 </head>
 
@@ -63,19 +63,18 @@
 
 
 
-    <div class="d-flex justify-content-center bg-purple">
+    <div class="d-flex justify-content-center align-items-center flex-column bg-footer color-text">
 
-        <div class="logo-content">
-            <img class="log-img-footer" src="{{ asset('/assets/logo.png') }}" alt="">
+        <div class="d-flex justify-content-center align-items-center logo-content gap-3">
+            <img class="log-img-footer" src="{{ asset('/assets/logo.png') }}" style="" alt="">
             <h1>
                 Lorem Ipsum
             </h1>
         </div>
 
-        <div class="sosmed-content">
-            <p>Lorem Ipsum Street</p>
-
-            <div class="sosmed-img">
+        <div class="d-flex flex-column align-items-center gap-2">
+            <p class="m-0">Lorem Ipsum Street</p>
+            <div class="d-flex gap-2">
                 <a href="https://www.instagram.com/">
                     <img src="{{ asset('assets/ig.png') }}" alt="" target="_blank">
                 </a>
