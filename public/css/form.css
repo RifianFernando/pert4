@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+.form-contact{
+    background-image: url(../assets/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 10rem 0rem;
+}
+
+.kotak-formulir{
+    background-color: #000000b3;
+    border-radius: 2rem;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.form-text{
+    font-size: 40px;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: bold;
+}
+
+.kotak-formulir form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    color: white;
+    gap: 1rem;
+}
+
+.kotak{
+    display: flex;
+    flex-direction: column;
+}
+
+.kotak-1{
+    display: flex;
+    align-items: column;
+    justify-content: center;
+}
+
+.kotak input{
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+}
+
+.btn-submit{
+    margin: 1rem 0rem;
+    width: 50%;
+    border-style: none;
+    background-color: purple;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+}
